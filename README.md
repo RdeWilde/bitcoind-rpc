@@ -1,7 +1,7 @@
-bitcoind-rpc.js
+iond-rpc.js
 ===============
 
-[![NPM Package](https://img.shields.io/npm/v/bitcoind-rpc.svg?style=flat-square)](https://www.npmjs.org/package/bitcoind-rpc)
+[![NPM Package](https://img.shields.io/npm/v/iond-rpc.svg?style=flat-square)](https://www.npmjs.org/package/iond-rpc)
 [![Build Status](https://img.shields.io/travis/rdewilde/iond-rpc.svg?branch=master&style=flat-square)](https://travis-ci.org/rdewilde/iond-rpc)
 [![Coverage Status](https://img.shields.io/coveralls/rdewilde/iond-rpc.svg?style=flat-square)](https://coveralls.io/r/rdewilde/iond-rpc?branch=master)
 
@@ -9,10 +9,10 @@ A client library to connect to Bitcoin Core RPC in JavaScript.
 
 ## Get Started
 
-bitcoind-rpc.js runs on [node](http://nodejs.org/), and can be installed via [npm](https://npmjs.org/):
+iond-rpc.js runs on [node](http://nodejs.org/), and can be installed via [npm](https://npmjs.org/):
 
 ```bash
-npm install bitcoind-rpc
+npm install iond-rpc
 ```
 
 ## Examples
@@ -20,7 +20,7 @@ npm install bitcoind-rpc
 ```javascript
 var run = function() {
   var ioncore = require('ioncore');
-  var RpcClient = require('bitcoind-rpc');
+  var RpcClient = require('iond-rpc');
 
   var config = {
     protocol: 'http',
