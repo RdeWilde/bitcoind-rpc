@@ -1,6 +1,6 @@
 {
-  "name": "bitcoind-rpc",
-  "description": "Bitcoin Client Library to connect to Bitcoin Core via RPC",
+  "name": "iond-rpc",
+  "description": "ION Client Library to connect to ION Core via RPC",
   "version": "0.7.0",
   "author": {
     "name": "Stephen Pair",
@@ -22,15 +22,20 @@
     {
       "name": "Braydon Fuller",
       "email": "braydon@bitpay.com"
+    },
+    {
+      "name": "Robert de Wilde",
+      "email": "email@robertdewilde.nl"
     }
   ],
   "keywords": [
     "bitcoin",
-    "rpc"
+    "rpc",
+    "ion"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpay/bitcoind-rpc"
+    "url": "https://github.com/rdewilde/iond-rpc"
   },
   "license": "MIT",
   "main": "lib/index.js",
@@ -47,7 +52,7 @@
     "sinon": "^1.12.2"
   },
   "bugs": {
-    "url": "https://github.com/bitpay/bitcoind-rpc/issues"
+    "url": "https://github.com/rdewilde/iond-rpc/issues"
   },
-  "homepage": "https://github.com/bitpay/bitcoind-rpc"
+  "homepage": "https://github.com/rdewilde/iond-rpc"
 }

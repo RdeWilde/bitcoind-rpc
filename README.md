@@ -2,8 +2,8 @@ bitcoind-rpc.js
 ===============
 
 [![NPM Package](https://img.shields.io/npm/v/bitcoind-rpc.svg?style=flat-square)](https://www.npmjs.org/package/bitcoind-rpc)
-[![Build Status](https://img.shields.io/travis/bitpay/bitcoind-rpc.svg?branch=master&style=flat-square)](https://travis-ci.org/bitpay/bitcoind-rpc)
-[![Coverage Status](https://img.shields.io/coveralls/bitpay/bitcoind-rpc.svg?style=flat-square)](https://coveralls.io/r/bitpay/bitcoind-rpc?branch=master)
+[![Build Status](https://img.shields.io/travis/rdewilde/iond-rpc.svg?branch=master&style=flat-square)](https://travis-ci.org/rdewilde/iond-rpc)
+[![Coverage Status](https://img.shields.io/coveralls/rdewilde/iond-rpc.svg?style=flat-square)](https://coveralls.io/r/rdewilde/iond-rpc?branch=master)
 
 A client library to connect to Bitcoin Core RPC in JavaScript.
 
@@ -19,7 +19,7 @@ npm install bitcoind-rpc
 
 ```javascript
 var run = function() {
-  var bitcore = require('bitcore');
+  var ioncore = require('ioncore');
   var RpcClient = require('bitcoind-rpc');
 
   var config = {
@@ -56,7 +56,7 @@ var run = function() {
         }
 
         rawtxs.map(function (rawtx) {
-          var tx = new bitcore.Transaction(rawtx.result);
+          var tx = new ioncore.Transaction(rawtx.result);
           console.log('\n\n\n' + tx.id + ':', tx.toObject());
         });
 
@@ -72,6 +72,6 @@ var run = function() {
 
 ## License
 
-**Code released under [the MIT license](https://github.com/bitpay/bitcore/blob/master/LICENSE).**
+**Code released under [the MIT license](https://github.com/rdewilde/ioncore/blob/master/LICENSE).**
 
 Copyright 2013-2014 BitPay, Inc.
