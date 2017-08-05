@@ -1,7 +1,7 @@
 {
   "name": "iond-rpc",
   "description": "ION Client Library to connect to ION Core via RPC",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "author": {
     "name": "Stephen Pair",
     "email": "stephen@bitpay.com"
